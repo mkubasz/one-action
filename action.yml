@@ -3,3 +3,7 @@ description: Cokolwiek
 runs:
   using: docker
   image: Dockerfile
+inputs:
+  my_selector:
+    required: false
+    default: "."
