@@ -1,4 +1,5 @@
 #!/bin/bash
+IFS=$'\n'
 
 echo "Test"
 for v in `env`; do
