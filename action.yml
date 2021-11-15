@@ -1,0 +1,5 @@
+name: Testowy
+description: Cokolwiek
+runs:
+  using: docker
+  image: Dockerfile
