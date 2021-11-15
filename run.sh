@@ -1,6 +1,4 @@
-#!/bin/bash
-IFS=$'\n'
-
+#!/bin/sh
 echo "Test"
 for v in `env`; do
   PREFIX=$(echo $v| cut -d '_' -f1)
